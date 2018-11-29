@@ -1196,6 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942319163}
   - component: {fileID: 1942319162}
+  - component: {fileID: 1942319164}
   m_Layer: 0
   m_Name: GPUI
   m_TagString: Untagged
@@ -1214,8 +1215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a2f81e870853f34087f4363a2043e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instances: 30
-  maxPos: {x: 0, y: 0, z: 0}
+  instances: 10000
+  maxPos: {x: 30, y: 30, z: 30}
   objMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   objMat: {fileID: 2100000, guid: 53182f5044460be46a86c910b0b97bbe, type: 2}
 --- !u!4 &1942319163
@@ -1231,6 +1232,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1942319164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942319161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf252c7d97e78564f818f2d80b2a28f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2011204166
 GameObject:
   m_ObjectHideFlags: 0

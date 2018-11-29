@@ -351,6 +351,8 @@
     <Compile Include="Packages\com.unity.render-pipelines.core\CoreRP\Editor\IncludePaths\CoreShaderIncludePaths.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shader\Custum.shader" />
+    <None Include="Assets\Shader\GPUCompute.compute" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
