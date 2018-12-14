@@ -1,0 +1,50 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+#pragma kernel Emit
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+//RWTexture2D<float4> Result;
+RWStructuredBuffer<int> int_result;
+RWStructuredBuffer<Particle> _Particle;
+
+struct Particle
+{
+	int id;
+	bool active;
+	float3 position;
+	float3 velocity;
+	float3 rotation;
+	float3 angVelocity;
+	float scale;
+	float time;
+	float lifeTime;
+};
+
+float _DeltaTime;
+float myFloat;
+float4 _Range;
+float4 _Velocity;
+float4 _AngVelocity;
+
+float rand(float2 seed) {
+	return frac(sin(dot(seed.xy, float2(12.9898, 78.233)))* 43758.5453);
+}
+
+float3 rand3(float2 seed) {
+	return 2.0*(float3(rand(seed * 1), rand(seed * 2), rand(seed * 3)) - 0.5);
+}
+
+[numthreads(4,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	// TODO: insert actual code here!
+	//Result[id.xy] = float4(id.x & id.y, (id.x & 15)/15.0, (id.y & 15)/15.0, 0.0);
+	_Particle[id.x] = idx.X + 1;
+	int_result[id.x] = id.x + 1;
+}
+
+[numthreads(4,1,1)]
+void Emit(uint id : SV_DispatchThreadID) {
+	if (!_Particles[1d].active)Init(id);
+}

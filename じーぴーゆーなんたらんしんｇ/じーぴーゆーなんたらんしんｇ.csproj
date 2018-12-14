@@ -344,10 +344,34 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AcquireChan\Scripts\AcquireChanController.cs" />
+    <Compile Include="Assets\AcquireChan\Scripts\MotionChanger.cs" />
+    <Compile Include="Assets\AcquireChan\Scripts\SimpleFollowCam.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Demo\Scripts\CurlParticleEmitterDemo.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Demo\Scripts\DistanceEmitterDemo.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Demo\Scripts\Rotater.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Demo\Scripts\ShapeEmitterDemo.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Core\CurlParticle.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Core\CurlParticleSystem.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Emitter\CurlParticleEmitter.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Emitter\DistanceEmitter.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Emitter\ShapeEmitter.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\CacheBehaviour.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\CurlParticlePool.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\CurlParticleProfile.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\CurlParticleUtility.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\Extensions.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\ObjectPool.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\Singleton.cs" />
+    <Compile Include="Assets\CurlNoiseParticleSystem\Scripts\Utility\Xorshift.cs" />
     <Compile Include="Assets\Fortune.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Shader\GPUI.cs" />
     <Compile Include="Assets\Shader\TestC.cs" />
+    <Compile Include="Assets\ShederScript\TestScript.cs" />
+    <Compile Include="Assets\ShederScript\TestScript2.cs" />
+    <Compile Include="Assets\ShederScript\TestScript3.cs" />
+    <Compile Include="Assets\ShederScript\UnchiScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
@@ -357,8 +381,21 @@
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AcquireChan\Models\Shaders\imagine_chara.shader" />
+    <None Include="Assets\AcquireChan\Models\Shaders\imagine_chara_parts_body.shader" />
+    <None Include="Assets\AcquireChan\Models\Shaders\imagine_chara_parts_face.shader" />
+    <None Include="Assets\AcquireChan\Models\Shaders\imagine_chara_parts_hair.shader" />
+    <None Include="Assets\CurlNoiseParticleSystem\Shaders\CurlNoiseParticle.compute" />
+    <None Include="Assets\CurlNoiseParticleSystem\Shaders\Define.cginc" />
+    <None Include="Assets\CurlNoiseParticleSystem\Shaders\NoiseMath.cginc" />
+    <None Include="Assets\CurlNoiseParticleSystem\Shaders\ParticleShader.shader" />
+    <None Include="Assets\CurlNoiseParticleSystem\readme-en.txt" />
+    <None Include="Assets\CurlNoiseParticleSystem\readme-jp.txt" />
     <None Include="Assets\Shader\Custum.shader" />
     <None Include="Assets\Shader\GPUCompute.compute" />
+    <None Include="Assets\ShederScript\Test.compute" />
+    <None Include="Assets\ShederScript\Test2.compute" />
+    <None Include="Assets\ShederScript\UnchiCompute.compute" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />

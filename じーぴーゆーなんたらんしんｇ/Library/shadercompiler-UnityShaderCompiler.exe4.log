@@ -1,55 +1,8 @@
 Base path: C:/Program Files/Unity2018_2/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=15745 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=24225 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=18665 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=53861 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=20157 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=26657 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=17425 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=44157 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=37025 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13247 outsize=28413 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=25381 outsize=301 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=1176 outsize=781 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9166 outsize=8909 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=2868 outsize=897 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=18144 outsize=14241 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=1470 outsize=561 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=1806 outsize=1389 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=32699 outsize=30237 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=32699 outsize=46241 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=6505 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7321 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=9673 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7261 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=7069 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=8773 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16784 outsize=11145 ok=1
+  error: 2 plat 4 at UnchiCompute.compute(7): unrecognized identifier 'RWStructureBuffer'
+  api=4 insize=479 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler

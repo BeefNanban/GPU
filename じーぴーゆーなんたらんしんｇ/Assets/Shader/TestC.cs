@@ -14,6 +14,17 @@ public class TestC : MonoBehaviour {
         int kernel = shader.FindKernel("CSMain");
 
         shader.Dispatch(kernel, 1, 1, 1);
+
+        int[] data = new int[4];
+
+        result.GetData(data);
+
+        for (int i = 0; i < 4; i++)
+        {
+            Debug.Log(data[i]);
+        }
+
+        result.Release();
 	}
 	
 	// Update is called once per frame

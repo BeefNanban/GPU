@@ -1,12 +1,17 @@
 Base path: C:/Program Files/Unity2018_2/Editor/Data
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=415 outsize=414 ok=1
 Cmd: initializeCompiler
 Cmd: preprocessCompute
-  insize=502 outsize=501 ok=1
-Cmd: compileComputeKernel
-  error: 2 plat 4 at GPUCompute.compute(10): syntax error: unexpected token '['
-  api=4 insize=501 outsize=0 ok=0
+  insize=415 outsize=414 ok=1
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=449 outsize=448 ok=1
+Cmd: preprocessCompute
+  insize=482 outsize=481 ok=1
+Cmd: preprocessCompute
+  insize=480 outsize=479 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
