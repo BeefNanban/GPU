@@ -1,7 +1,12 @@
-Base path: C:/Program Files/Unity2018_2/Editor/Data
+Base path: C:/Program Files/UnityNew/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=414 outsize=441 ok=1
+  error: 2 plat 4 at Test.compute(9): syntax error: unexpected token 'Particle'
+  api=4 insize=1171 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

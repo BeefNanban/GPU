@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 0.35349175, g: 0.32528594, b: 0.21748108, a: 1}
+  m_IndirectSpecularColor: {r: 0.3534881, g: 0.3252832, b: 0.21747877, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5838,7 +5838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instances: 10000
   maxPos: {x: 30, y: 30, z: 30}
-  objMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  objMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   objMat: {fileID: 2100000, guid: 53182f5044460be46a86c910b0b97bbe, type: 2}
 --- !u!4 &1942319163
 Transform:
